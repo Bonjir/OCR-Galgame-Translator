@@ -1,0 +1,23 @@
+{
+  "defaultOCR": "bd_normal",
+  "defaultOCRLanguage": "CHN_ENG",
+  "defaultGALLanguage": "JAP",
+  "trans": "bd_trans",
+  "otherSetting": {
+    "StartUp": "False",
+    "ToClip": "False",
+    "ShowTip": "False",
+    "BanHotKey": "False",
+    "AgainHotKey": "False"
+  },
+  "ColorList": [
+    "black",
+    "black",
+    "black",
+    "black"
+  ],
+  "ocrHotKey": "<ctrl>+<shift>+M",
+  "galHotKey": "<ctrl>+<alt>+G",
+  "manualHotKey": "<shift>",
+  "AutoGALTimeInterval": "800"
+}
