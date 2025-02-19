@@ -12,7 +12,7 @@
 
 ### 环境：
 
-使用tkinter搭建窗口框架，百度的ocrAPI进行文字识别，以及腾讯的机器翻译API
+使用pyqt搭建窗口框架，百度的ocrAPI进行文字识别，以及腾讯的机器翻译API
 
 后面的两个API都是**免费**的（每天限用次数很充足）
 
@@ -20,7 +20,7 @@
 
 腾讯的机器翻译API申请参考：[免费翻译API及使用指南——百度、腾讯](https://blog.csdn.net/xiaoxian666/article/details/139954647)
 
-python=3.10.10
+python=3.10.15
 
 ---
 
@@ -29,17 +29,34 @@ python=3.10.10
 - 原项目处于半开源状态，代码并不和release一同更新，代码已经被抛弃很久了；并且原项目的代码有很多bug无法直接运行，在本项目中进行了修正
 - 修正了无法进行OCR、Galgame模式框选区域的问题
 - 原项目使用爬虫爬取百度翻译，反应速度慢而且经常出错，更改成了腾讯的翻译API接口
-
----
-
-### 更新计划：
-
 - 框选区域界面优化
 - 基于pyqt对源代码进行重构（原代码的码风让人难以忍受）
 - 主窗口界面优化
 
 ---
 
+### 优点：
+
+- 多线程处理，提升处理速度，避免卡顿
+- 界面美观，交互体验良好
+- 码风优良，多个模块在其他项目中可以便捷的复用
+
+---
+
+### 更新计划：
+
+- 
+
+---
+
 ### 食用方法：
 
 参考上面的两个链接注册API key，然后在./config/文件夹下中找到api-config.json，将里面的相应内容替换掉即可
+
+---
+
+### 展示：
+
+![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/display/mainwindow.png)
+
+![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/display/ocrdialog.png)
