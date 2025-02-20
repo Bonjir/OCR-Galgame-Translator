@@ -57,6 +57,6 @@ python=3.10.15
 
 ### 展示：
 
-![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/display/mainwindow.png)
+![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/.github/mainwindow.png)
 
-![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/display/ocrdialog.png)
+![](https://github.com/Bonjir/OCR-Galgame-Translator/blob/main/.github/ocrdialog.png)
